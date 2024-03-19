@@ -9,7 +9,7 @@ const MovieItem = ({ movie }) => {
       lg={3}
       md={4}
       sm={6}
-      className="p-3"
+      className="pt-3"
     >
       {
         <Card>
@@ -31,7 +31,7 @@ const MovieItem = ({ movie }) => {
                 className="w-100 object-fit-cover"
                 height={200}
                 src={
-                  movie.Poster == "N/A"
+                  movie.Poster === "N/A"
                     ? "https://via.placeholder.com/200"
                     : movie.Poster
                 }

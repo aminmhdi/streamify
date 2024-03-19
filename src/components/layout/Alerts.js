@@ -13,7 +13,7 @@ const Alerts = () => {
         key={alert.id}
         className={`alert alert-${alert.type}`}
       >
-        <FontAwesomeIcon icon={faCircleInfo}></FontAwesomeIcon> {""}
+        <FontAwesomeIcon icon={faCircleInfo} /> {""}
         {alert.msg}
       </div>
     ))

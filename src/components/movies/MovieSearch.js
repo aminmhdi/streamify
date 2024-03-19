@@ -22,7 +22,6 @@ const MovieSearch = () => {
 
   const onChange = (e) => {
     setText(e.target.value);
-    console.log(e.target.value);
   };
 
   return (

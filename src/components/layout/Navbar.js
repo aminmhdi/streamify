@@ -43,7 +43,7 @@ AppNavbar.propTypes = {
 };
 
 AppNavbar.defaultProps = {
-  title: "Movies App"
+  title: "Streamify"
 };
 
 export default AppNavbar;

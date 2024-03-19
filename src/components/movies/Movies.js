@@ -34,7 +34,7 @@ const Movies = () => {
 
   return (
     <Row>
-      {movies.Search.slice(0, 8).map((movie) => (
+      {movies.Search.map((movie) => (
         <MovieItem
           key={v4()}
           movie={movie}

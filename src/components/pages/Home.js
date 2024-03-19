@@ -1,4 +1,4 @@
-import React, { useContext, useEffect } from "react";
+import React from "react";
 import { Row, Col } from "react-bootstrap";
 import Movies from "../movies/Movies.js";
 import MovieSearch from "../movies/MovieSearch.js";
