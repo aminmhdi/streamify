@@ -1,4 +1,4 @@
-.movie-year{
+.movie-year {
   bottom: 0;
   color: #fff;
   background-image: linear-gradient(#f9f9f900, black);
@@ -7,11 +7,15 @@
   text-shadow: 1px 1px 1px black;
 }
 
-.movie-type{
+.movie-type {
   top: 0;
-  right:0;
+  right: 0;
 }
 
-.max-width-350px{
+.max-width-350px {
   max-width: 350px;
+}
+
+a {
+  text-decoration: none;
 }

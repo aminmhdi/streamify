@@ -20,7 +20,12 @@ export const About = () => {
               Amin Mohammadi
             </a>
           </Col>
-          <Col lg={12}>{/* <p>Version 1.0</p> */}</Col>
+          <Col lg={12}>
+            Github:{" "}
+            <a className="no" href="https://github.com/aminmhdi/streamify">
+              https://github.com/aminmhdi/streamify
+            </a>
+          </Col>
         </Row>
       </CardBody>
     </Card>

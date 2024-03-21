@@ -3,14 +3,13 @@ import {
   SEARCH_LOADING,
   SEARCH_MOVIE,
   GET_MOVIE,
-  CLEAR_MOVIE,
   GET_MOVIE_ERROR,
   CLEAR_MOVIE,
   GET_TRAILER,
   GET_TRAILER_ERROR
 } from "../types";
 
-export default (state, action) => {
+const movieReducer = (state, action) => {
   switch (action.type) {
     case SET_TEXT:
       return {
@@ -73,3 +72,5 @@ export default (state, action) => {
       return state;
   }
 };
+
+export default movieReducer;
